@@ -1,4 +1,4 @@
-<button id="recomend-button"  (click)="showChatBot = !showChatBot"  >recommendations</button>
+<button id="recomend-button"  (click)="showChatBot = !showChatBot"  >recommendations</button>{{show ? 'hide' : 'show'}}
 <div *ngIf="showChatBot" id="chat-bot">
 <iframe
     width="350"
